@@ -1,13 +1,18 @@
 project:
   type: website
 
+  preview:
+    browser: true
+    port: 3721
+    watch-inputs: true
+
 pagetitle: "{{< meta title >}} | Marion Bauman"
 author-meta: "Marion Bauman"
 
 website:
   title: "Marion Bauman"
   favicon: "icons8-m-96.png"
-  # site-url: "https://www.mfgeary.github.io"
+  site-url: "https://www.mfgeary.github.io"
   repo-url: "https://github.com/mfgeary/mfgeary.github.io"
   navbar:
     left:
