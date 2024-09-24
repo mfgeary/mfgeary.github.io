@@ -6,15 +6,15 @@ author-meta: "Marion Bauman"
 
 website:
   title: "Marion Bauman"
-  favicon: "files/icons8-m-96.png"
-  site-url: "https://www.mfgeary.github.io"
+  favicon: "icons8-m-96.png"
+  # site-url: "https://www.mfgeary.github.io"
   repo-url: "https://github.com/mfgeary/mfgeary.github.io"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - 404.qmd
+      - href: about.qmd
+        text: About
 
     right:
       - icon: github
