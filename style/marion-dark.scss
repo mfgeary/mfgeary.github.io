@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Lato&display=swap');
+
+/*-- scss:defaults --*/
+$body-bg: #040f12;
+$body-color: #f9f9f9;
+$link-color: #BEC6ff;
+$input-bg: #9B6A6C;
+$code-block-bg: #1A2428;
+$code-bg: #1A2428;
+$code-color: #BEC6ff;
+$popover-bg: #a5c5a9;
+$font-family-sans-serif: 'Lato', sans-serif;
+// $progress-bg: #BEC6ff;
+$callout-color-note: #BEC6ff;
+$callout-color-tip: #a5c5a9;
+$callout-color-caution: #f1b06c;
+$callout-color-warning: #FFEAB6;
+$callout-color-important: #9B6A6C;
+$primary-color: #BEC6ff;
+
+/*-- scss:rules --*/
+h1 {
+    font-family: 'IM Fell DW Pica';
+    color: #f9f9f9;
+}
+h2 {
+    font-family: 'IM Fell DW Pica';
+    color: #f9f9f9;
+}
+h3 {
+    font-family: 'IM Fell DW Pica';
+    color: #f9f9f9;
+}
+.subtitle {
+    font-family: 'IM Fell DW Pica';
+    font-style: italic;
+    color: #f9f9f9;
+}
+.quarto-title-meta-heading {
+    font-family: 'IM Fell DW Pica';
+    color: #f9f9f9;
+}
+.quarto-title-meta-contents {
+    font-family: 'IM Fell DW Pica';
+    font-style: italic;
+    color: #f9f9f9;
+}

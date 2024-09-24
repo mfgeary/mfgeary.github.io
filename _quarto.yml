@@ -1,0 +1,34 @@
+project:
+  type: website
+
+pagetitle: "{{< meta title >}} | Marion Bauman"
+author-meta: "Marion Bauman"
+
+website:
+  title: "Marion Bauman"
+  favicon: "files/icons8-m-96.png"
+  site-url: "https://www.mfgeary.github.io"
+  repo-url: "https://github.com/mfgeary/mfgeary.github.io"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - 404.qmd
+
+    right:
+      - icon: github
+        href: "https://github.com/mfgeary"
+        aria-label: GitHub
+        rel: "me"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/marion-geary-bauman"
+        aria-label: LinkedIn
+        rel: "me"
+
+format:
+  html:
+    theme:
+      light: style/marion-light.scss
+      dark: style/marion-dark.scss
+    toc: false
