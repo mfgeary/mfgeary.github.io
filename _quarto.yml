@@ -6,7 +6,7 @@ project:
     port: 3721
     watch-inputs: true
 
-pagetitle: "{{< meta title >}} | Marion Bauman"
+pagetitle: "{{< meta title >}}"
 author-meta: "Marion Bauman"
 
 website:
@@ -20,6 +20,14 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: projects/projects.qmd
+        text: Projects
+      - href: contact.qmd
+        text: Contact
+      - href: cv.qmd
+        text: CV
+      - href: portfolio.qmd
+        text: Portfolio
 
     right:
       - icon: github

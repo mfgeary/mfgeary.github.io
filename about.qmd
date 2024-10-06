@@ -1,5 +1,18 @@
 ---
 title: "About"
+about:
+  id: hero-heading
+  template: jolla
+  image: head-shot.jpeg
+  image-shape: rounded
+  image-title: Marion Geary Bauman
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/mfgeary
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/marion-geary-bauman
 ---
 
-About this site
+Hello there!
